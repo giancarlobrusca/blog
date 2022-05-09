@@ -8,7 +8,6 @@ import { getSortedPostsData } from "lib/utils";
 import Link from "next/link";
 
 const Home: NextPage = ({ posts }: any) => {
-	console.log({ posts });
 	return (
 		<div>
 			<Head>
